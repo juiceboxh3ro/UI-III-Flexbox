@@ -1,15 +1,10 @@
 @media(max-width: 768px) {
-  * {
-    max-width: 768px;
-  }
+  * { max-width: 768px; }
 
-  nav {
-    justify-content: space-evenly;
-  }
+  nav { justify-content: space-evenly; }
 
-  .services {
-    margin: 0 35px;
-  }
+  .services h1,
+  .services p { margin: 0 35px; }
 
   .design, .ux, .marketing, .web-dev, .ios-dev, .and-dev {
     width: 90%;
@@ -18,9 +13,7 @@
     align-items: center;
   }
 
-  .container2 {
-    flex-direction: column;
-  }
+  .container2 { flex-direction: column; }
 
   .facts-right {
     margin: 0 35px;
@@ -32,7 +25,5 @@
     width: 90%;
   }
 
-  .facts-left ul {
-    margin-top: 30px;
-  }
+  .facts-left ul { margin-top: 30px; }
 }
