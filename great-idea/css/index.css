@@ -115,7 +115,8 @@ header {
 }
 
 #header-left #btn {
-	width: auto;
+	width: 65%;
+	text-align: center;
 	padding: 10px 50px;
 	border: 1px solid black;
 }
