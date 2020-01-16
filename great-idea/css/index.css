@@ -87,6 +87,15 @@ nav a {
 	font-weight: 600;
 }
 
+nav img {
+	transition: 0.25s ease-in;
+}
+
+nav img:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
 /* Header Section */
 
 header {
@@ -207,6 +216,11 @@ h2 { font-size: 1.5rem; }
 	border-radius: 5px;
 	text-align: center;
 	font-size: 0.8rem;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: #fff;
 }
 
 
